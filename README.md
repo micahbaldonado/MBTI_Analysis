@@ -120,6 +120,7 @@ This analysis can be applied in situations where quick, accurate personality typ
   - Ex. there is an extremely high occurence of ISFJ (46.9%) after the participants who did not take the test properly were removed
 - **Prior MBTI Knowledge**: Test takers who already know what their MBTI type may be influenced by this in how they answer each question
   - 7.79% of participants who took the test correctly dedicated 21 or more hours to MBTI typology. These participants can easily determine which questions target which dichotomy, which could influence how they respond.
+- **No Use of Cognitive Functions**: Open Extended Jungian Type Scales 1.2, while shown to have higher differential power in determining MBTI dichotomy compared to 16personalities.com, does not use cognitive functions to type, which is more in line with Carl Jung's original theory.
 
 ---
 
