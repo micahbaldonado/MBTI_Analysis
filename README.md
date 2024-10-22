@@ -100,7 +100,7 @@ Note: you will need to change the path for data.csv and question_bank.csv
 
 ### Future Work
 
-- **Class Weighting**: Future iterations will incorporate class weighting to address sample bias (overrepresentation of certain types) in the dataset, which would further enhance prediction accuracy.
+- **Class Weighting/Upsampling**: Future iterations will incorporate class weighting or upsampling of underrepresented MBTI types to address sample bias in the dataset, which would further enhance prediction accuracy.
 - **Community Feedback**: I plan to engage with MBTI communities on platforms like Reddit to improve the model based on community feedback and suggestions.
 
 ---
