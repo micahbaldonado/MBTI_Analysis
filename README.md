@@ -21,6 +21,14 @@ With just **one question**, I achieved the following accuracy levels in predicti
 - **Judging/Perceiving (J/P)**: 76.9%
   - chaotic; organized (rate from 1-5)
 
+Determining which dichotomy the person belongs to based on these questions is mostly intuitive, but sometimes it's not. The exact interpretation of the model is below for each attribute:
+
+![image](https://github.com/user-attachments/assets/61889761-e9f9-4df4-9bad-9c00db1a451d)
+![image](https://github.com/user-attachments/assets/88d2a2e1-a907-4d65-8742-c1f9a6281db8)
+![image](https://github.com/user-attachments/assets/0c73192f-7657-4ce3-8185-19b43e2c8eae)
+![image](https://github.com/user-attachments/assets/e33bed03-bde7-4803-bdc7-daf81dc75b09)
+
+
 ### Project Details
 
 - **Dataset**: The analysis is based on responses from the [Open Extended Jungian Type Scales (OEJTS)](https://openpsychometrics.org/tests/OEJTS/comparison/) dataset, which includes an extensive set of response data along with a **codebook** detailing the data formatting.
