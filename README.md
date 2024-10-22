@@ -20,7 +20,7 @@ With just **one question**, I achieved the following accuracy levels in predicti
 ### Project Details
 
 - **Dataset**: The analysis is based on responses from the [Open Extended Jungian Type Scales (OEJTS)](https://openpsychometrics.org/tests/OEJTS/comparison/) dataset, which includes an extensive set of response data along with a **codebook** detailing the data formatting.
-- **Machine Learning Methods**: I used the **Random Forest Classifier** from **scikit-learn** to determine the most important questions to predict someone’s overall MBTI type, based on feature importance analysis.
+- **Machine Learning Methods**: I used the **Decision Tree Classifier** from **scikit-learn** to determine the most important questions to predict someone’s MBTI type dichotomies.
   
 ### Methodology
 
