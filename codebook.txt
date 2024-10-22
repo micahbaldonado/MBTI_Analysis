@@ -1,3 +1,5 @@
+NOTE: THIS CODEBOOK IS NOT MINE. See https://openpsychometrics.org/tests/OEJTS/comparison/
+
 The main test had 48 questions. Each question had two parts, complementary descriptions linked by a five point scale. 
 Users indicated where on the scale between those two descriptions they were. 
 The text of the questions is below, the two parts separated by a semicolon.
