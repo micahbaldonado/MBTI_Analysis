@@ -13,9 +13,13 @@ The goal is to streamline MBTI assessments, helping users determine personality 
 ### Key Achievements
 With just **one question**, I achieved the following accuracy levels in predicting dichotomies:
 - **Introversion/Extraversion (I/E)**: 81.6%
+  - gets worn out by parties; gets fired up by parties (rate from 1-5)
 - **Sensing/Intuition (S/N)**: 68.2%
+  - accepts things as they are; unsatisfied with the ways things are (rate from 1-5)
 - **Thinking/Feeling (F/T)**: 74.4%
+  - wants to be good at fixing things; wants to be good at fixing people (rate from 1-5)
 - **Judging/Perceiving (J/P)**: 76.9%
+  - chaotic; organized (rate from 1-5)
 
 ### Project Details
 
