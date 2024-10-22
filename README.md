@@ -111,7 +111,7 @@ This analysis can be applied in situations where quick, accurate personality typ
 
 ### License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the LICENSE file for details.
 
 ---
 
