@@ -1,4 +1,3 @@
-
 # MBTI Best Questions Analysis
 
 ### Overview
