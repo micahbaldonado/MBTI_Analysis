@@ -1,4 +1,4 @@
-# MBTI Best Questions Analysis
+give me# MBTI Best Questions Analysis
 
 ### Overview
 
@@ -81,6 +81,8 @@ To replicate the analysis:
    ```bash
    jupyter notebook MBTI_best_questions.ipynb
    ```
+
+Note: you will need to change the path for data.csv and question_bank.csv
 
 ---
 
