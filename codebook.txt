@@ -1,0 +1,140 @@
+The main test had 48 questions. Each question had two parts, complementary descriptions linked by a five point scale. 
+Users indicated where on the scale between those two descriptions they were. 
+The text of the questions is below, the two parts separated by a semicolon.
+
+Q1		gets worn out by parties; gets fired up by parties
+Q2		starts over when they fail; tries something new when they fail
+Q3		uncomfortable with emotions; values emotions
+Q4		plans far ahead; plans at the last minute
+Q5		works best in groups; works best alone
+Q6		theoretical; empirical
+Q7		follows the heart; follows the head
+Q8		rebellious; ambitious
+Q9		wants deep friendships; wants many friendships
+Q10		focused on the present; focused on the future
+Q11		bases morality on justice; bases morality on compassion
+Q12		gets work done right away; procrastinates
+Q13		likes to perform in front of other people; avoids public speaking
+Q14		wants to live forever; wants a normal lifespan
+Q15		uses instinct; uses reason
+Q16		chaotic; organized
+Q17		finds it difficult to yell very loudly; yelling to others when they are far away comes naturally
+Q18		relaxes; daydreams
+Q19		judges a painting on how realistic it is; judges a painting on the feeling it conveys
+Q20		works hard; plays hard
+Q21		bored by time alone; needs time alone
+Q22		wants the big picture; wants the details
+Q23		easily hurt; thick-skinned
+Q24		keeps options open; commits
+Q25		has difficulty explaining their ideas; confident explaining their ideas
+Q26		prefer to take multiple choice test; prefer essay answers
+Q27		sceptical; wants to believe
+Q28		keeps a clean room; just puts stuff where ever
+Q29		talks more; listens more
+Q30		likes stories with lots of twists; likes stories with lots of action
+Q31		seeks harmony; seeks clarity
+Q32		improvises; prepares
+Q33		stays at home; goes out on the town
+Q34		accepts things as they are; unsatisfied with the ways things are
+Q35		wants people's respect; wants their love
+Q36		needs to work; only works because they must
+Q37		leads from the front; manipulates things behind the scenes
+Q38		fits in; stands out
+Q39		thinks &quot;robotic&quot; is an insult; strives to have a mechanical mind
+Q40		makes lists; relies on memory
+Q41		keep room door closed; leaves door open
+Q42		when describing an event, will tell people what happened; when describing an event, will tell people what it meant
+Q43		wants to be good at fixing things; wants to be good at fixing people
+Q44		does a good job handling the preparation; does a good job handling the fallout
+Q45		energetic; mellow
+Q46		likes to know "who?", "what?", "when?"; likes to know "why?"
+Q47		cares if something is good or bad; cares if something is true or false
+Q48		does their best; does what they need to get by
+
+When the user was done with the main test, on the next page they answered a few questions about their own Myers-Briggs type (users who did not know their Myers-Briggs type were asked to skip this).
+The following questions were asked on this page.
+
+knowtype			"Do you already think you know what your Myers-Briggs personality type is?",  1=Yes,  2=No
+knowntype			"What do you think your type is?"
+confidenceintype	"How confident are you that this is your type?",  1=Not very confident,  2=Confident,  3=Very confident
+prevhours			"Approximately how many hours in your life have you spent learning or thinking about the Myers-Briggs typology?"  1=0-1 hours,  2= 2-5 hours,  3=6-20 hours,  4=21 or more hours
+
+Users were then asked if their answers were accurate and could be used for research, those who did not answer yes were discarded.
+Users were then asked if they would be willing to complete an additional survey. Users who answered no went directly to their results and are not included in this dataset.
+
+On the additional survey, the users were directed to open http://similarminds.com/jung.html in a different tab and to complete the test there. They were then asked to record their results and percentage results.
+
+RIE		1=Introvert, 2=Extrovert
+IEPERCENT	The percentage associated with their IE result
+RSN		1=Sensing, 2=Intuition
+SNPERCENT	The percentage associated with their SN result
+RFT		1=Feeling, 2=Thinking
+FTPERCENT	The percentage associated with their FT result
+RJP		1=Judging, 2=Perceiving
+JPPERCENT	The percentage associated with their JP result
+
+
+
+
+SOME NOTES:
+
+1. Percentage scores for complementary dichotomies add up to 100 in the SimilarMinds results. If %Introverted was 75, %extroverted was 25.
+
+2. If the user recorded their data correctly, percentages should be between 50 and 100. Other percentages should be dropped from the dataset when analysing.
+
+3. To get the underlying scale score, data will have to be transformed, for example:
+		TRUE_IE_PERCENT =  { IEPERCENT 			RIE=1,
+							 100-IEPERCENT		RIE=2
+							}
+4. The OEJTS 1.1 scale scores are computed thus:
+		IE = (0 +  Q1)
+		+ (6 -  Q5)
+		+ (0 +  Q9)
+		+ (6 -  Q13)
+		+ (0 +  Q17)
+		+ (6 -  Q21)
+		+ (0 +  Q25)
+		+ (6 -  Q29)
+		+ (0 +  Q33)
+		+ (6 -  Q37)
+		+ (0 +  Q41)
+		+ (6 -  Q45)
+		SN = (0 +  Q2)
+		+ (6 -  Q6)
+		+ (0 +  Q10)
+		+ (6 -  Q14)
+		+ (0 +  Q18)
+		+ (6 -  Q22)
+		+ (0 +  Q26)
+		+ (6 -  Q30)
+		+ (0 +  Q34)
+		+ (0 +  Q38)
+		+ (0 +  Q42)
+		+ (0 +  Q46)
+		FT = (6 -  Q3)
+		+ (0 +  Q7)
+		+ (6 -  Q11)
+		+ (0 +  Q15)
+		+ (6 -  Q19)
+		+ (0 +  Q23)
+		+ (6 -  Q27)
+		+ (0 +  Q31)
+		+ (6 -  Q35)
+		+ (0 +  Q39)
+		+ (6 -  Q43)
+		+ (0 +  Q47)
+		JP = (0 +  Q4)
+		+ (6 -  Q8)
+		+ (0 +  Q12)
+		+ (6 -  Q16)
+		+ (0 +  Q20)
+		+ (6 -  Q24)
+		+ (0 +  Q28)
+		+ (6 -  Q32)
+		+ (0 +  Q36)
+		+ (0 +  Q40)
+		+ (0 +  Q44)
+		+ (0 +  Q48)
+		
+5. The scoring for the OEJTS 1.1 has some problems (some items are poor quality), this is known.
+
